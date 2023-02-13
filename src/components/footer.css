@@ -1,0 +1,120 @@
+.footer{
+    position: relative;
+    width:300px;
+}
+.inputfield{
+    margin-left: 60px;
+    outline: none;
+    width:250%;
+    background-color: #F5F6FA;
+    border:none;
+    padding-bottom:90px;
+    outline: none;
+    height:70px;
+    border-radius: 10px;;
+}
+
+.inputfield:hover{
+    cursor: pointer;
+}
+
+.btn{
+  width:100px;
+    position: absolute;
+    right: -500px; 
+    top: 16px;
+    border: 0;
+    background: #00A0AE;;
+    color: #fff;
+    padding:10px;
+    border-radius: 4px;
+    height:40px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+
+/* resposivness                   */
+
+
+@media only screen and (min-width: 200px) and (max-width: 527px) {
+    .footer{
+        position: relative;
+        width:125px;
+        background-color: red;
+    }
+    .inputfield{
+        margin-left: 0px;
+        outline: none;
+        width:250%;
+        background-color: #F5F6FA;
+        border:none;
+        padding-bottom:90px;
+        outline: none;
+        height:70px;
+        border-radius: 10px;;
+    }
+    
+    .inputfield:hover{
+        cursor: pointer;
+    }
+    
+    .btn{
+      width:100px;
+        position: absolute;
+        right: -150px; 
+        top: 16px;
+        border: 0;
+        background: #00A0AE;;
+        color: #fff;
+        padding:10px;
+        border-radius: 4px;
+        height:40px;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 528px) and (max-width: 800px) {
+    .footer{
+        position: relative;
+        width:300px;
+    }
+    .inputfield{
+        margin-left: 0px;
+        outline: none;
+        width:150%;
+        background-color: #F5F6FA;
+        border:none;
+        padding-bottom:90px;
+        outline: none;
+        height:70px;
+        border-radius: 10px;;
+    }
+    
+    .inputfield:hover{
+        cursor: pointer;
+    }
+    
+    .btn{
+      width:100px;
+        position: absolute;
+        right: -150px; 
+        top: 16px;
+        border: 0;
+        background: #00A0AE;;
+        color: #fff;
+        padding:10px;
+        border-radius: 4px;
+        height:40px;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+    
+}
